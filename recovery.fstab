@@ -1,0 +1,8 @@
+# Not working internal and external SD card, must be fixed
+/dev/boot             /boot         emmc      defaults        defaults
+/emmc@cache           /cache        ext4      defaults        defaults
+/emmc@usrdata         /data         ext4      defaults        defaults
+/dev/recovery         /recovery     emmc      defaults        defaults
+/dev/block/mmcblk1p1  /external_sd  auto      defaults        defaults
+/dev/fuse             /internal_sd  auto      defaults        defaults
+/emmc@android         /system       ext4      defaults        defaults
